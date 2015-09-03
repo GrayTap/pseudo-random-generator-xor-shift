@@ -11,7 +11,7 @@ protected:
     int z = 521288629;
 public:
     int w = 88675123;
-    int setSeed (int s)
+    void setSeed (int s)
     {
         this->w = s;
     }
